@@ -14,3 +14,4 @@ document.getElementById("submitBtn").onclick = function(){
         alert("Too Small!!");
     }
 }
+console.log(answer); 
