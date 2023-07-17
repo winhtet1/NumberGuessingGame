@@ -1,1 +1,30 @@
-
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: wheat;
+}   
+.container{
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    position: relative;
+    margin-top: 80px;
+    background-color: gray;
+    width: 600px;
+    height: 300px;
+    border: 2px solid;
+}
+h1{
+    padding: 30px;
+    color: lightyellow;
+    font-size: 40px;
+}
+p, label{
+    color: darkblue;
+}
+#submitBtn{
+    margin-top: 30px;
+    background-color: red;
+    color: white;
+    width: 100px;
+    height: 30px;
+}

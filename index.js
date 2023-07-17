@@ -3,8 +3,8 @@ let guesses = 0;
 
 document.getElementById("submitBtn").onclick = function(){
 
-    let guess = document.getElementById("guessField").value
-    console.log(guess);
+    let guess = document.getElementById("guessField").value;
+    // console.log(guess);
     guesses += 1;
     if(answer == guess){
         alert(`Congratulation!! ${guess} is a number. You took ${guesses} times.`);
@@ -13,5 +13,6 @@ document.getElementById("submitBtn").onclick = function(){
     } else {
         alert("Too Small!!");
     }
+    document.getElementById("guessField").value = "";
 }
 console.log(answer); 
